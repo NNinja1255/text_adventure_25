@@ -14,4 +14,9 @@ public class Exit : MonoBehaviour
 
     public bool isLocked;
     public bool isHidden;
+
+    public void setRoom(Room r)
+    {
+        room = r;
+    }
 }
